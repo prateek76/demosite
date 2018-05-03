@@ -303,6 +303,7 @@ a.show-link {
     	margin-left: 40%;
     	height: 60px;
     	width: 60px;
+	z-index: 10000000;
     }
     div.card {
     	width: 100%!important;
