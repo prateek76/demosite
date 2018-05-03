@@ -1,0 +1,365 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'rubik';
+	font-style: normal;
+}
+
+div.eat-clean {
+	background: #edf7ef;
+	box-shadow: 0 3px 1px rgba(0,0,0,0.2);
+}
+
+div.slim-box {
+	background: #fefef4;
+	box-shadow: 0 3px 1px rgba(0,0,0,0.2);
+}
+
+div.bulk-box {
+	background: #f0f9fe;
+	box-shadow: 0 3px 1px rgba(0,0,0,0.2);
+}
+
+div.gluten-box {
+	background: #fdeafe;
+	box-shadow: 0 3px 1px rgba(0,0,0,0.2);
+}
+
+div.eat-clean-button {
+	text-align: center;
+	background: #4b7f5b;
+    border-radius: 0;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+
+div.slim-box-button {
+	text-align: center;
+	background: #928d4d;
+	border-radius: 0;
+	color: #fff;
+    padding: 10px;
+    width: 100%;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+
+div.bulk-box-button {
+	text-align: center;
+	background: #2c6b8e;
+	border-radius: 0;
+	color: #fff;
+    padding: 10px;
+    width: 100%;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+
+div.gluten-box-button {
+	text-align: center;
+	background: #b078a9;
+	border-radius: 0;
+	color: #fff;
+    padding: 10px;
+    width: 100%;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+
+}
+
+div.eat-clean-button:hover {
+	cursor: pointer;
+	background-color: #1b532d;
+}
+
+div.slim-box-button:hover {
+	cursor: pointer;
+	background-color: #565117;
+}
+
+div.bulk-box-button:hover {
+	cursor: pointer;
+	background-color: #03293f;
+}
+
+div.gluten-box-button:hover {
+	cursor: pointer;
+	background-color: #33012c;
+}
+
+div.card {
+	min-height: 100%;
+	margin: auto;
+}
+
+h5.card-title-eat-clean {
+	text-align: center;
+	color: #4b7f5b;
+	font-size: 24px;
+    font-weight: 700;
+}
+
+h5.card-title-slim-box {
+	text-align: center;
+	color: #928d4d;
+	font-size: 24px;
+    font-weight: 700;
+}
+
+h5.card-title-bulk-box {
+	text-align: center;
+	text-align: center;
+	color: #2c6b8e;
+	font-size: 24px;
+    font-weight: 700;
+}
+
+h5.card-title-gluten-box {
+	text-align: center;
+	color: #b078a9;
+	font-size: 24px;
+    font-weight: 700;
+}
+
+h6.card-title-eat-clean {
+	text-align: center;
+	color: #4b7f5b;
+	font-size: 14px;
+    font-weight: 700;
+}
+
+h6.card-title-slim-box {
+	text-align: center;
+	color: #928d4d;
+	font-size: 14px;
+    font-weight: 700;
+}
+
+h6.card-title-bulk-box {
+	text-align: center;
+	color: #2c6b8e;
+	font-size: 14px;
+    font-weight: 700;
+}
+
+h6.card-title-gluten-box {
+	text-align: center;
+	color: #b078a9;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+p.card-title-eat-clean {
+	text-align: center;
+	color: #4b7f5b;
+	font-size: 13px;
+	min-height: 160px;
+}
+
+p.card-title-slim-box {
+	text-align: center;
+	color: #928d4d;
+	font-size: 13px;
+	min-height: 160px;
+}
+
+p.card-title-bulk-box {
+	text-align: center;
+	text-align: center;
+	color: #2c6b8e;
+	font-size: 13px;
+	min-height: 160px;
+}
+
+p.card-title-gluten-box {
+	text-align: center;
+	color: #b078a9;
+	font-size: 13px;
+	min-height: 160px;
+}
+
+nav.topper {
+	background-color : #fff!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #333;
+	font-weight: 700;
+	transition: all .2s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+	color: #7ed321!important;
+}
+
+.mb-3, .my-3 {
+	margin-bottom: 0!important;
+}
+
+.container-fluid-banner {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.container-fluid-banner-main {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+div.text-banner {
+	position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #333;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: -140px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0px 0px 12px rgba(255,255,255,.8), 0 0 9px rgba(255,255,255,.8), 0 0 6px rgba(255,255,255,.8), 0 0 3px rgba(255,255,255,.8);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  font-size: 20px;
+}
+::-moz-placeholder {
+  text-align: center;
+  font-size: 20px;
+}
+:-ms-input-placeholder {
+  text-align: center;
+  font-size: 20px;
+}
+:-moz-placeholder {
+  text-align: center;
+  font-size: 20px;
+}
+
+div.subscribe-button {
+    text-align: center;
+    background: #330 !important;
+    border-radius: 0;
+    color: #fff;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+    width: 60%;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+}
+
+div.subscribe-button:hover {
+    cursor: pointer;
+    background: #7ed321 !important;
+}
+
+a.show-link {
+		display: none;
+	}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 10000000;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 1210px) {
+    div.hide-me-now {
+    	display: none;
+    }
+
+    div.text-banner {
+    	font-size: 32px;
+    	margin-top: -250px;
+    }
+
+    button.navbar-toggler {
+    	float: right;
+    	color: lightgreen;
+    }
+    
+    a.navbar-brand {
+    	content:url("https://www.freshii.com/mealbox/images/logo_freshii-mealbox-mobile.png");
+    	text-align: center;
+    	margin-left: 40%;
+    	height: 60px;
+    	width: 60px;
+    }
+    div.card {
+    	width: 100%!important;
+	}
+
+	div.col-sm-3 {
+		flex: 0 0 100%;
+    	max-width: 100%;
+    	margin-bottom: 12px;
+
+	}
+
+	img.card-img-top {
+		display: none;
+	}
+
+	p.card-title-eat-clean {
+		text-align: center;
+		color: #4b7f5b;
+		font-size: 13px;
+		min-height: auto;
+	}
+
+	p.card-title-slim-box {
+		text-align: center;
+		color: #928d4d;
+		font-size: 13px;
+		min-height: auto;
+	}
+
+	p.card-title-bulk-box {
+		text-align: center;
+		text-align: center;
+		color: #2c6b8e;
+		font-size: 13px;
+		min-height: auto;
+	}
+
+	p.card-title-gluten-box {
+		text-align: center;
+		color: #b078a9;
+		font-size: 13px;
+		min-height: auto;
+	}
+
+	div.col-md-6 {
+		flex: 0 0 100%;
+    	max-width: 100%;
+	}
+
+	div.hide-button {
+		display: none;
+	}
+
+	a.show-link {
+		display: block;
+		text-align: center;
+		color: inherit;
+	}
+}
