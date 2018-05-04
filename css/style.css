@@ -246,7 +246,7 @@ div.text-banner {
 
 div.subscribe-button {
     text-align: center;
-    background: #330 !important;
+    background: #333 !important;
     border-radius: 0;
     color: #fff;
     padding: 10px;
@@ -282,6 +282,43 @@ a.show-link {
     padding-bottom: 20px;
 }
 
+div.footer-social-icon {
+	margin: auto;
+	margin-top: 10px;
+	width: min-content;
+}
+
+ul.footer-social-list {
+	list-style: none;
+	display: flex;
+}
+
+li.footer-social-list-item {
+	background:  #333;
+	font-size: 20px;
+	text-align:  center;
+	color: #fff;
+	line-height: 36px;
+	margin-right: 5px;
+	width: 37px;
+	height: 35px;
+	border-radius: 50%;
+	-webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+li.footer-social-list-item:hover {
+	background: #7ed321 !important;
+	cursor: pointer;
+}
+
+div.hide-button {
+	font-weight: 700;
+}
+
 @media only screen and (max-width: 1210px) {
     div.hide-me-now {
     	display: none;
@@ -289,7 +326,7 @@ a.show-link {
 
     div.text-banner {
     	font-size: 32px;
-    	margin-top: -250px;
+    	top: 234px;
     }
 
     button.navbar-toggler {
