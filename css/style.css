@@ -508,4 +508,8 @@ span.__crumb__:hover {
 	div.gluten-box {
 	    box-shadow: none;
 	}
+
+	div.card {
+		border: none;
+	}
 }
